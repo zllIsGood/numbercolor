@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GuideItemSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="img" x="0" source="guide_bottom_png" rotation="-90" y="78" />
+</e:Skin>
+

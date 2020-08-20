@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AuctionResultSkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" />
+    <e:Group width="714" height="672" horizontalCenter="0" verticalCenter="0">
+        <e:Image height="672" source="view_frame_png" scale9Grid="354,149,24,90" />
+        <e:Image y="70" source="frame_line_png" horizontalCenter="0.5" />
+        <e:Label text="拍卖结果" y="38" size="46" horizontalCenter="0" />
+        <e:Group id="grp" width="600" y="160" x="57">
+            <e:Image id="srcBg" y="-40" source="auction_win_sanhua_png" horizontalCenter="0" visible="false" />
+            <e:Image id="srcImg" y="-20" horizontalCenter="0" source="" />
+            <e:Image id="failImg" y="184" source="auction_yanpin_png" x="235" visible="false" />
+            <e:Group id="dialogGrp" x="90" y="-40" width="366" height="198">
+                <e:Image source="auction_talk_frame_png" scaleX="-1" x="366" />
+                <e:Label id="dialogLab" text="" size="26" x="50" textColor="0x49453E" width="270" verticalCenter="-27"
+                         lineSpacing="6" />
+            </e:Group>
+        </e:Group>
+        <ns1:BaseBtn id="btnL" label="" x="80" y="508" skinName="BaseBtnSkin" icon="auction_xiufu_btn_png" />
+        <ns1:BaseBtn id="btnL2" label="" x="80" y="508" skinName="BaseBtnSkin" icon="auction_buxiufu_btn_png"
+                     visible="false" />
+        <ns1:BaseBtn id="btnR" label="" x="430" y="508" skinName="BaseBtnSkin" icon="auction_buxiufu_btn_png" />
+        <ns1:BaseBtn id="btnR2" label="" x="400" y="508" skinName="BaseBtnSkin" icon="ok_btn_png" visible="false" />
+        <ns1:BaseBtn id="btnC" label="" skinName="BaseBtnSkin" icon="ok_btn_png" y="508" x="214" visible="false" />
+        <e:Group id="closeGrp" width="80" height="80" right="1" top="4">
+            <e:Image source="btn_close_png" x="-32" y="-4" />
+        </e:Group>
+    </e:Group>
+</e:Skin>

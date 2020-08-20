@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskHeadItemSkin" width="91" height="85" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image source="home_btn0_png" x="0" y="0" />
+    <e:Image id="head" y="-8" source="lr_01_rolehas_png" scaleX="-0.6" scaleY="0.6" x="96" />
+    <e:Image id="img" source="task_img1_png" top="-5" right="-5" />
+</e:Skin>
+

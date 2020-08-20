@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DrawLoadingSkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" />
+    <e:Group id="container" width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+        <e:Image id="cimg1" verticalCenter="126.5" source="loading_cloud2_png" x="-100" />
+        <e:Image id="cimg2" verticalCenter="126.5" source="loading_cloud2_png" x="371" />
+        <e:Image id="cimg3" verticalCenter="126.5" source="loading_cloud2_png" x="850" />
+        <e:Image horizontalCenter="0" verticalCenter="0" source="loading_air_png" />
+    </e:Group>
+</e:Skin>

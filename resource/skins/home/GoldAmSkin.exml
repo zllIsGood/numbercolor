@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GoldAmSkin" width="44" height="46" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+    <e:Image id="img" horizontalCenter="0" verticalCenter="0" source="" />
+    <e:Label id="lab" text="" size="28" textColor="0xFFDC29" x="50" y="9" />
+</e:Skin>
+

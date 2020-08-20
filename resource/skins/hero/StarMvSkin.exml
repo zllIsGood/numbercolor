@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarMvSkin" width="600" height="416" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+    <e:Image id="star0" y="355" x="100" source="ui_star1_png" anchorOffsetX="11" anchorOffsetY="11" />
+    <e:Image id="star1" y="183" source="ui_star1_png" x="182" anchorOffsetX="11" anchorOffsetY="11" />
+    <e:Image id="star2" y="218" source="ui_star1_png" x="415" anchorOffsetX="11" anchorOffsetY="11" />
+    <e:Image id="star3" y="40" x="274.5" source="ui_star2_png" anchorOffsetX="11" anchorOffsetY="11" />
+    <e:Image id="star4" y="291" x="477" source="ui_star2_png" anchorOffsetX="11" anchorOffsetY="11" />
+</e:Skin>
+

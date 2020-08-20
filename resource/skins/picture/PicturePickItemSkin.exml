@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PicturePickItemSkin" width="672" height="200" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="bottomLine" y="194" source="view_xx_png" horizontalCenter="0" />
+    <e:Image id="imgBar" x="166" y="12" width="466" scale9Grid="20,5,6,32" source="picture_bar2_png" />
+    <e:Image id="img1" source="blue_frame_png" y="8" x="32" />
+    <e:Image id="img2" y="6" x="39" source="gray_frame_png" scaleX="1.7" scaleY="1.7" />
+    <e:Image id="img4" x="41" y="-8" source="" />
+    <e:Image id="img5" y="11" source="img_lock_png" x="34" />
+    <e:Image id="img3" x="227" y="120" source="goldadd_png" />
+    <e:Group id="tgrp" x="242" y="67">
+        <e:Image y="1" x="0" width="260" source="ui_black_mini_png" />
+        <e:Image source="time_icon_png" scaleX="0.7" scaleY="0.7" y="1" x="137" />
+        <e:Image scaleX="0.5" scaleY="0.5" x="3" source="home_gold_png" y="2" />
+        <e:Label id="labG" text="999.99k" x="43" size="24" textColor="0xFDFDFD" y="5" />
+        <e:Label id="labT" text="2h59m" x="172" size="24" textColor="0xFDFDFD" y="5" />
+    </e:Group>
+    <e:Label id="lab3" text="20%" size="12" x="272" y="157" textColor="0xE1F1FF" />
+    <e:Label id="lab" text="铁面无私包青天" size="24" textColor="0xffffff" x="223" y="22" />
+    <e:Label id="lab4" text="去给你的作品增加乐趣" size="24" x="223" y="72" textColor="0x876536" />
+    <e:Label id="lab2" text="" size="24" textColor="0xFFFFFF" x="520" y="22" />
+    <ns1:BaseBtn id="btn" label="" x="434" y="103" icon="btn_put_png" skinName="BaseBtnSkin" />
+</e:Skin>
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DrawColorItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="img" source="colour_circle_png" />
+    <e:Label id="lab" text="1" size="32" textColor="0x070505" horizontalCenter="0" verticalCenter="0"
+             strokeColor="0xffffff" stroke="2" />
+</e:Skin>
+

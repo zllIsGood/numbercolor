@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GoldTipItemSkin" width="205" height="131" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image source="frame_time_gold_png" horizontalCenter="0" />
+    <e:Image x="11" y="56" source="time_icon_png" />
+    <e:Image x="11" y="12" source="home_gold_png" scaleX="0.8" scaleY="0.8" />
+    <e:Label id="lab1" text="9999/9999k" x="60" y="21" size="24" />
+    <e:Label id="lab2" text="9999/9999k" x="59" y="65" size="24" />
+</e:Skin>
+

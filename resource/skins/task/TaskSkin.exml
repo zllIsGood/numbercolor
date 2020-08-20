@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskSkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" />
+    <e:Group width="714" height="672" horizontalCenter="0" verticalCenter="0">
+        <e:Image height="672" source="view_frame_png" scale9Grid="354,149,24,90" />
+        <e:Image y="70" source="frame_line_png" horizontalCenter="0" />
+        <e:Label text="摆放艺术品" y="38" size="46" horizontalCenter="0" />
+        <e:Group id="grp" horizontalCenter="0" y="181">
+            <e:Image source="blue_frame_png" y="0" />
+            <e:Image source="blue_frame_png" x="180" y="0" />
+            <e:Image source="blue_frame_png" x="360" y="0" />
+            <e:Image y="0" x="0" source="qljst_task_png" />
+            <e:Image y="0" x="180" source="qljst_task_png" />
+            <e:Image y="0" x="360" source="qljst_task_png" />
+        </e:Group>
+        <ns1:BaseBtn id="colorBtn" label="" skinName="BaseBtnSkin" icon="task_award_btn_png" horizontalCenter="0"
+                     y="512" />
+        <e:Group x="20" y="420">
+            <e:Image y="0" x="0" width="666" source="lab_bar2_png" scale9Grid="15,4,8,30" />
+            <e:Image y="7" x="32" source="ui_black_mini_png" width="126" />
+            <e:Image y="7" x="330" source="ui_black_mini_png" width="126" />
+            <e:Image y="2" x="13" source="ui_pic_num_png" />
+            <e:Image y="5" x="320" scaleX="0.6" scaleY="0.6" source="home_gold_png" />
+            <e:Label id="lab" text="Label" x="63" y="13" size="20" textColor="0xfdfdfd" />
+            <e:Label id="lab0" text="Label" x="365" y="13" size="20" textColor="0xFDFDFD" />
+        </e:Group>
+        <e:Group id="closeGrp" width="80" height="80" right="1" top="4">
+            <e:Image source="btn_close_png" x="-32" y="-4" />
+        </e:Group>
+    </e:Group>
+</e:Skin>

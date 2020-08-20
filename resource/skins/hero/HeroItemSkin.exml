@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeroItemSkin" width="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Image x="10" y="10" source="picture_bar_png" width="586" scale9Grid="20,5,6,32" />
+	<e:Group id="starGrp" x="16" y="8">
+		<e:Image source="star_png" />
+		<e:Image source="star_png" x="10" y="10" />
+		<e:Image source="star_png" x="20" y="20" />
+		<e:Image source="star_png" x="30" y="30" />
+		<e:Image source="star_png" x="40" y="40" />
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="frameGrp" x="0" y="70">
+		<e:Image y="0" x="0" source="gray_frame2_png" />
+		<e:Image y="10" x="10" source="gray_frame2_png" />
+		<e:Image y="20" x="20" source="gray_frame2_png" />
+		<e:Image y="30" x="30" source="gray_frame2_png" />
+		<e:layout>
+			<e:TileLayout requestedColumnCount="4" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="headGrp" x="0" y="70" touchChildren="false" touchEnabled="false" touchThrough="true"></e:Group>
+	<e:Label id="lab" text="0/0" size="28" textColor="0xFFFFFF" x="500" y="18" />
+</e:Skin>
+

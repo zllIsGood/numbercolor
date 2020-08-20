@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Story1Skin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="bgGrp" height="1334" verticalCenter="0" x="0">
+        <e:Group id="curGrp" x="0" width="750" top="0" bottom="0">
+            <e:Image id="bg" source="mainbg_jpg" scale9Grid="93,1314,564,20" top="0" bottom="0" />
+            <e:Image x="47" bottom="137" source="qiangdun_png" />
+            <e:Image y="400" source="joygb_home_png" horizontalCenter="0" />
+        </e:Group>
+    </e:Group>
+    <e:Group id="talkGrp" bottom="80" height="386">
+        <e:Image source="story_frame_png" y="186" />
+        <e:Image id="img1" x="1" y="118" source="story_frame1_png" />
+        <e:Label id="talkLab" text="" x="68" textColor="0x000000" width="400" lineSpacing="4" verticalCenter="30" />
+        <e:Image id="nextImg" x="410" y="255" source="story_next_png" scaleX="0.5" scaleY="0.5" visible="false" />
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GoldAdSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+    <e:Group id="grp" width="94" height="94" x="51" y="99" anchorOffsetY="95" anchorOffsetX="47">
+        <e:Image source="home_gold_gray_png" />
+        <e:Image id="ximg" y="22" source="bs_x_2x_png" x="20" />
+        <e:Image x="58" y="65" source="mini_ad_png" />
+    </e:Group>
+</e:Skin>
+

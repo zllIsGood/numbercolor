@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AuctionTalkItemSkin" width="122" height="66" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Group id="dialogGrp" x="-2" visible="false">
+        <e:Image source="auction_talk_frame2_png" />
+        <e:Label id="dialogLab" text="想要这个" size="20" x="22" textColor="0x49453E" y="14" />
+    </e:Group>
+    <e:Image id="headImg" x="25" source="" />
+</e:Skin>
+

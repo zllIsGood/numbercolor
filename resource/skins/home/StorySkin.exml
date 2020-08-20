@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StorySkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+        <e:Image id="img" source="" />
+    </e:Group>
+</e:Skin>

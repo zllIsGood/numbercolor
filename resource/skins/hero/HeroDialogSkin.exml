@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroDialogSkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" />
+    <e:Group width="669" height="443" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="frame_png" x="-12" y="-35" />
+        <e:Image x="60" y="51" source="hero_label_frame_png" />
+        <e:Image x="-1" y="-51" source="title_hero_png" />
+        <e:Label id="lab" text="点击5个客人吧，你可能会发现新大陆!" x="92" y="92" size="30" textColor="0x483826" width="320"
+                 lineSpacing="5" />
+        <e:Group x="225" y="258">
+            <e:Image x="0" y="0" source="minigold_png" />
+        </e:Group>
+        <ns1:BaseBtn id="btn" label="" skinName="BaseBtnSkin" icon="ok_btn_png" x="67" y="307" />
+        <e:Label text="获得：      X30" x="145" y="268" size="26" textColor="0x483826" />
+        <e:Group id="closeGrp" width="70" height="70" right="-20" top="-30" />
+    </e:Group>
+</e:Skin>

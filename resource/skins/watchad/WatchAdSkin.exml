@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WatchAdSkin" width="750" height="1334" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.7" />
+    <e:Group width="714" height="672" horizontalCenter="0" verticalCenter="0">
+        <e:Image height="672" source="view_frame_png" scale9Grid="354,149,24,90" />
+        <e:Image y="70" source="frame_line_png" horizontalCenter="0" />
+        <e:Label text="观看影片" y="38" size="46" horizontalCenter="0" />
+        <e:Image y="168" source="lr_02_home_png" scaleX="-1.7" x="790" scaleY="1.7" />
+        <e:Image source="ad_label_png" x="180" y="133" scaleX="0.8" scaleY="0.8" />
+        <ns1:BaseBtn id="btn" label="" skinName="BaseBtnSkin" icon="videoAdBtn_png" y="515" horizontalCenter="0" />
+        <e:Image scaleX="-1" source="set_frame1_png" scale9Grid="77,27,464,18" width="676" x="696" y="420" />
+        <e:Group x="227" y="440">
+            <e:Image x="70" y="0" source="ui_black_mini_png" width="180" />
+            <e:Image id="ximg" x="60" y="-10" source="bs_x_2x_png" />
+            <e:Label text="获得" x="0" y="2" size="26" />
+            <e:Label text="3m" x="153" size="26" y="2" />
+        </e:Group>
+        <e:Group id="closeGrp" width="80" height="80" right="1" top="4">
+            <e:Image source="btn_close_png" x="-32" y="-4" />
+        </e:Group>
+    </e:Group>
+</e:Skin>

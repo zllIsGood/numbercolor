@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.HScrollBarSkin" minWidth="20" minHeight="8" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="13" height="7">
+	<e:Image verticalCenter="0" left="3" right="3" scale9Grid="4,6,1,36" source="scrollbar0_png" />
+	<e:Image id="thumb" scale9Grid="4,7,2,10" source="scrollbar1_png" />
+</e:Skin>
+

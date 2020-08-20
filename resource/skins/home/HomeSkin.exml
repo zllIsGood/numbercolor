@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HomeSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:euiextension="euiextension.*" xmlns:ns1="*" height="1334">
+    <e:Group id="bgGrp" width="750" height="1334" y="0" horizontalCenter="0">
+        <e:Group id="curGrp" x="0" width="750" top="0" bottom="0">
+            <e:Image id="bg" source="mainbg_jpg" scale9Grid="93,1314,564,20" top="0" bottom="0" />
+            <e:Image x="47" source="qiangdun_png" bottom="137" />
+            <e:Image y="490" horizontalCenter="0" source="home_door_png" />
+        </e:Group>
+        <e:Group id="preGrp" x="-750" width="750" top="0" bottom="0">
+            <e:Image id="bgL" source="mainbg_jpg" scale9Grid="93,1314,564,20" top="0" bottom="0" />
+            <e:Image x="47" source="qiangdun_png" bottom="137" />
+        </e:Group>
+        <e:Group id="nestGrp" x="750" width="750" top="0" bottom="0">
+            <e:Image id="bgR" source="mainbg_jpg" scale9Grid="93,1314,564,20" top="0" bottom="0" />
+            <e:Image x="47" source="qiangdun_png" bottom="137" />
+        </e:Group>
+    </e:Group>
+    <e:Group id="roleGrp" x="0" width="750" top="0" bottom="0" touchEnabled="false"></e:Group>
+    <e:Group id="topGrp" width="750" x="0" y="20" touchEnabled="false">
+        <e:Image y="-20" source="home_top_png" width="750" scale9Grid="385,20,42,30" height="130" />
+        <e:Image id="goldImg" x="50" y="9" source="home_gold_png" />
+        <!--<e:Image id="setImg" x="646" source="home_setting_png" y="5" />
+        -->
+        <ns1:BaseBtn id="setBtn" label="" skinName="BaseBtnSkin" icon="home_setting_png" x="646" y="5" visible="false" />
+        <e:Label id="goldLab" text="0" x="115" y="26" size="30" textColor="0xFFDC29" />
+        <e:Image id="ximg" y="220" source="bs_w_png" right="14" />
+    </e:Group>
+    <e:Group id="picGrp" y="130" left="5">
+        <e:Image x="0" source="home_pic_pre_png" y="0" />
+        <e:Label id="picNumLab" text="0" x="53" y="5" size="26" textColor="0xffffff" />
+    </e:Group>
+    <e:Group id="leftGrp" y="204" left="11">
+        <e:Image y="0" source="home_btn0_png" x="0" />
+        <e:Image y="0" source="home_btn0_png" x="0" />
+        <e:layout>
+            <e:VerticalLayout/>
+        </e:layout>
+    </e:Group>
+    <e:Group id="bottomGrp" bottom="20" horizontalCenter="0" width="750" x="0" y="1233">
+        <ns1:BaseBtn id="upgradeBtn" label="" skinName="BaseBtnSkin" icon="home_upgrade_png" y="0" x="40" />
+        <ns1:BaseBtn id="auctionBtn" label="" skinName="BaseBtnSkin" icon="home_auction_png" y="0" x="176" />
+        <ns1:BaseBtn id="pictureBtn" label="" skinName="BaseBtnSkin" icon="home_picture_put_png" x="313" y="0" />
+        <ns1:BaseBtn id="heroBtn" label="" skinName="BaseBtnSkin" icon="home_hero_png" x="449" y="0" />
+        <ns1:BaseBtn id="drawBtn" label="" skinName="BaseBtnSkin" icon="home_draw_png" y="0" x="586" />
+    </e:Group>
+</e:Skin>
+

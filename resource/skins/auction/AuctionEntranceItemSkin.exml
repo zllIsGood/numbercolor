@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AuctionEntranceItemSkin" width="672" height="210" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image y="204" source="view_xx_png" />
+    <e:Image x="147" y="32" source="picture_bar_png" width="500" scale9Grid="20,5,6,32" />
+    <e:Image id="img" y="13" source="auction_shengxiao_png" x="13" />
+    <e:Image x="187" y="117" source="home_gold_png" scaleX="0.46" scaleY="0.46" />
+    <e:Image id="img2" x="177" y="148" source="auction_time_left_png" />
+    <e:Label id="lab0" text="十二生肖拍卖场" size="24" textColor="0xffffff" x="193" y="42" />
+    <e:Label id="lab1" text="10/12" size="24" textColor="0xFFFFFF" x="540" y="42" />
+    <e:Label text="拍卖品估价" size="25" textColor="0xB3B3B3" x="193" y="85" />
+    <e:Label id="lab2" text="" size="20" textColor="0xFFFFFF" x="223" y="120" />
+    <e:Label id="lab3" text="00:00" size="20" textColor="0xFFFFFF" y="161" horizontalCenter="-51.5" />
+    <ns1:BaseBtn id="btn" label="" x="452" y="99" skinName="BaseBtnSkin" icon="auction_ad_subtime_png" />
+</e:Skin>
+
